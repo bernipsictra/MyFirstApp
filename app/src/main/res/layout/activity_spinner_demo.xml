@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lesson03.Imageview">
+    tools:context=".lesson03.SpinnerDemo">
 
-        <ImageView
-            android:id="@+id/iv"
-            android:src="@drawable/hills"
-            android:scaleType="center"
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:spinnerMode="dialog"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"  />
+
+
+
 </LinearLayout>
