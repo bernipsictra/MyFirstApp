@@ -5,25 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".lesson03.Intent1">
+    tools:context=".lesson03.Intent2">
 
         <TextView
+            android:id="@+id/tv"
+            android:text="Intent 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:textAlignment="center"
             android:textSize="40dp"
             android:textStyle="bold"
-            android:text="Intent 1"
+            />
+        <ImageView
+            android:id="@+id/iv"
+            android:src="@drawable/fruit1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"  />
-
-        <Spinner
-            android:spinnerMode="dropdown"
-            android:id="@+id/sp"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"/>
-
-        <Button
-            android:id="@+id/btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="button"  />
+            android:layout_height="400dp" />
 </LinearLayout>
