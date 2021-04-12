@@ -9,30 +9,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".lesson03.Intent2"></activity>
-        <activity android:name=".lesson03.Spinnerlab">
-        </activity>
-        <activity android:name=".lesson03.Intent1">
+        <activity android:name=".lesson04.Popupmenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".lesson03.SpinnerDemo">
+        <activity android:name=".lesson04.Contextmenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".lesson03.Imageview">
+        <activity android:name=".lesson04.AndroidMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".lesson02.Homework">
-        </activity>
-        <activity android:name=".lesson02.Radiolab">
-        </activity>
-        <activity android:name=".lesson02.Radiobutton">
-        </activity>
-        <activity android:name=".lesson02.Checkbox">
-        </activity>
-        <activity android:name=".lesson01.MainActivity">
-        </activity>
+        <activity android:name=".lesson03.Intent2" />
+        <activity android:name=".lesson03.Spinnerlab" />
+        <activity android:name=".lesson03.Intent1" />
+        <activity android:name=".lesson03.SpinnerDemo" />
+        <activity android:name=".lesson03.Imageview" />
+        <activity android:name=".lesson02.Homework" />
+        <activity android:name=".lesson02.Radiolab" />
+        <activity android:name=".lesson02.Radiobutton" />
+        <activity android:name=".lesson02.Checkbox" />
+        <activity android:name=".lesson01.MainActivity" />
     </application>
 
 </manifest>
